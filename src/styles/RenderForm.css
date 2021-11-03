@@ -1,0 +1,22 @@
+.field {
+    display: flex;
+    flex-direction: column;
+    padding-top: 16px;
+}
+
+.button {
+    color: white;
+    background-color: rgb(85, 76, 184);
+    margin-top: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+
+.request__delete {
+    background-color: rgb(178, 118, 232);
+    color: white;
+    font-size: 18px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
