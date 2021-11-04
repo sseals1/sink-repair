@@ -11,7 +11,7 @@ export const Requests = () => {
     const convertRequestToListElement = (eachResultOfMap) => {
         return `
         <li>
-            ${eachResultOfMap.description}
+            ${eachResultOfMap.description} -- $${eachResultOfMap.budget}
             <button class="request__delete"  id="request--${eachResultOfMap.id}">Delete</button>
         </li>
     `
